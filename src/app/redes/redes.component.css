@@ -1,0 +1,25 @@
+
+/* Redes sociales*/
+i.fa-brands.fa-facebook.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-brands.fa-github.fa-2xl,
+i.fa-solid.fa-user-lock.fa-2xl{
+  color: #FFFFFF;
+}
+/* Redes sociales hover*/
+i.fa-brands.fa-facebook.fa-2xl:hover{
+    color: blue;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: rgb(230, 73, 170);
+}  
+i.fa-brands.fa-github.fa-2xl:hover{
+    color: rgba(0, 0, 0, 0.829);
+}  
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: blue;
+}
+.list-group{
+   --bs-list-group-bg: transparent !important;
+    --bs-list-group-border-color: none !important;
+}
