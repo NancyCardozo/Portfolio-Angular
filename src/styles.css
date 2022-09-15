@@ -1,11 +1,11 @@
 /*estilo de secciones generales*/
-.acercademi, .educacion, .experiencia, .hab-tecnicas, .proyectos, .contactos{
+.acercademi, .educacion, .experiencia, .hab-tecnicas, .proyectos, .contactos, footer{
     background-color: rgba(17, 106, 239, 0.789);
     margin-top: 2em;
     box-shadow: 5px 5px 15px 5px rgb(244, 244, 250)
   }
   .col-sm-10{
-    margin-top: 2em;
+    margin-top: 5em;
   }
   h6{
     margin-left: 1em;

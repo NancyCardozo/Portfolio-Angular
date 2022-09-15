@@ -1,0 +1,29 @@
+{
+    "nombre": "Nancy",
+    "apellido": "Cardozo",
+    "acerca de mi": "loren ipsum" ,
+
+    "educacion":[
+        {
+            "id": 0,
+        "inicio": "fecha",
+        "fin": "fecha",
+        "nivel": "Se Programar",
+        "img": "assets/img/APLogo-20-20.png"
+    },
+    {
+        "id": 1,
+        "inicio": "fecha xxx",
+        "fin": "fecha xxx",
+        "nivel": "Yo Programo",
+        "img": "assets/img/APLogo-20-20.png"
+    }
+] 
+
+
+
+
+
+
+
+}

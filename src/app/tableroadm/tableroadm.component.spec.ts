@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AcercaDeMiComponent } from './acerca-de-mi.component';
+import { TableroAdmComponent } from './tableroadm.component';
 
-describe('AcercaDeMiComponent', () => {
-  let component: AcercaDeMiComponent;
-  let fixture: ComponentFixture<AcercaDeMiComponent>;
+describe('TableroAdmComponent', () => {
+  let component: TableroAdmComponent;
+  let fixture: ComponentFixture<TableroAdmComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AcercaDeMiComponent ]
+      declarations: [ TableroAdmComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AcercaDeMiComponent);
+    fixture = TestBed.createComponent(TableroAdmComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
