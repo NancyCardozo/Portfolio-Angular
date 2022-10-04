@@ -1,1 +1,48 @@
+<!--3 icono educacion-->
+<div class="col">
+    <div ><button type="button" class="btn btn primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#educacionModal">
+                <i class="fa-solid fa-graduation-cap fa-2xl"></i>
+              </button></div>
+  </div>
 
+  <!--3 Modal educacion-->
+<div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="edumodaltitulo">Educacion</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-4">
+          
+          <div class="mb-3 row">
+            <select class="form-select mb-3" aria-label="Default select example">
+              <option selected>Elejir uno</option>
+              <option value="1">Argentina Programa</option>
+              <option value="2">Secundario</option>
+              <option value="3">codo a codo</option>
+            </select>
+  
+            <label for="formFileSm mb-3" class="form-label">Logo Institucion</label>
+                <input class="form-control form-control-sm" id="modalelogoinst" type="file">
+  
+                <label for="formFileSm" class="form-label">Nombre de la institucion</label>
+                <input class="form-control form-control-sm" id= "modalenombreinst" type="text">
+  
+                <label for="formFileSm" class="form-label">Nombre de carrera o Titulo</label>
+                <input class="form-control form-control-sm" id= "modalecarrera" type="text">
+  
+                <label for="formFileSm" class="form-label">Periodo</label>
+                <input class="form-control form-control-sm" id= "modaleperiodo" type="date">
+          </div>
+         </div>
+  <!-- botonnes para cambios-->  
+          <div class="modal-footer">
+         <button type="button" class="btn btn-danger">Eliminar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-primary">Guardar</button>
+          </div>
+        </div>
+       
+      </div>
+    </div>

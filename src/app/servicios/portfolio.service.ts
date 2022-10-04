@@ -1,3 +1,4 @@
+
 import { Injectable } from '@angular/core';
 
 //Esto es para suscribirse y que reciba respuesta de forma asíncrona
@@ -18,5 +19,11 @@ export class PortfolioService {
   getDatos():Observable<any> {
     //Se llama al JSON con su path -ruta-, o bien, en su lugar se puede poner una URL para traer datos de un JSON online
     return this.http.get('./assets/json/portfolio.json');
+
   }
-}
+  //metodo para subir datos
+ // postDatos():Observable<any> {
+    //return this.http.post
+
+  }
+//}

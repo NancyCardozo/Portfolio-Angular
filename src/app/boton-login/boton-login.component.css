@@ -1,0 +1,9 @@
+/* Boton login*/
+i.fa-solid.fa-user-lock.fa-2xl{
+  color: #FFFFFF;
+}
+/* Boton login hover*/
+ 
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: blue;
+}

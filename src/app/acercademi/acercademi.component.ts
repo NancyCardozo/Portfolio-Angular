@@ -10,7 +10,11 @@ import { PortfolioService } from '../servicios/portfolio.service';
 export class AcercademiComponent implements OnInit {
 
 //Crear variable de instancia para almacenar los datos con los que trata el Servicio
-infoPortfolio: any;
+//infoPortfolio: any;
+nombrePerfil: string = '';
+rollPerfil: string = '';
+acercaDeMiPerfil: string = '';
+
 
   constructor(
     //Inyectar el Servicio para tener acceso en la clase a los Métodos
@@ -20,9 +24,12 @@ infoPortfolio: any;
   ngOnInit(): void {
 
     //Esto es almacenar en la variable de instancia los datos recuperados por el Servicio?
-    this.portfolioService.getDatos().subscribe(data => {
-      console.log(data);
-      this.infoPortfolio=data.uno;
+    this.portfolioService.getDatos().subscribe(datos => {
+      console.log(datos);
+     // this.infoPortfolio=datos;
+     this.nombrePerfil=datos.nombrePerfil
+     this.rollPerfil=datos.rollPerfil
+     this.acercaDeMiPerfil=datos.acercaDeMiPerfil
     });
   }
 

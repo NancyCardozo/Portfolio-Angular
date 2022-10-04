@@ -1,1 +1,46 @@
 
+    <!--1 icono pefil-->
+    <div class="col">
+
+    <!-- 
+      asi tiene que quedar el componente
+      <app-user></app-user>
+      <app-usermodal></app-usermodal>
+     -->
+<div><button type="button" class="btn btn primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#userModal">
+                  <i class="fa-solid fa-user fa-2xl"></i>
+            </button></div>
+            <!--pasar el muñeco con el modal-->
+    </div>
+
+    <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" id="usermodaldialogo">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="perfilmodaltitulo">Perfil</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-4">
+              
+              <div class="mb-3 row">
+                <label for="formFileSm mb-3" class="form-label">Bannrer</label>
+                    <input class="form-control form-control-sm" id="banner" type="file">
+                    <label for="formFileSm mb-3" class="form-label">Foto Perfil</label>
+                    <input class="form-control form-control-sm" id="perfil" type="file">
+                    <label for="formFileSm" class="form-label">Nombre y Apellido</label>
+                    <input class="form-control form-control-sm" id="roll" type="file">
+                    <label for="formFileSm" class="form-label">Roll</label>
+                    <input class="form-control form-control-sm" id= "rollperfil" type="text">
+                    <label for="formFileSm" class="form-label">Acerca de mi</label>
+                    <input class="form-control form-control-sm" id= "acercademi" type="textarea">
+                  </div>
+             </div>
+      <!-- botonnes para cambios-->
+              <div class="modal-footer">
+              <button type="button" class="btn btn-danger">Eliminar</button>
+                <button type="button" class="btn btn-warning">Actualizar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+              </div>
+            </div>
+           </div>
+        </div>

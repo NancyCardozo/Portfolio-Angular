@@ -1,29 +1,199 @@
 {
-    "nombre": "Nancy",
-    "apellido": "Cardozo",
-    "acerca de mi": "loren ipsum" ,
+
+    "id":0,
+    "nombrePerfil": "Nancy Cardozo",
+    "rollPerfil": "Desarrolladora Web Full Stack Jr.",
+    "acercaDeMiPerfil": "loren ipsum",
+    "imgFondo": "assets/img/espacio.png",
+    "imgBanner": "assets/img/banner2.png",
+
+
 
     "educacion":[
         {
-            "id": 0,
-        "inicio": "fecha",
-        "fin": "fecha",
-        "nivel": "Se Programar",
-        "img": "assets/img/APLogo-20-20.png"
+        "id": 1,
+        "logoEducacion": "assets/img/esc258.jpg",
+        "inicio": "03/1994",
+        "fin": "12/1998",
+        "titulo": "Bachiller en Administración y Perito Mercantil",
+        "descripcion": "Escuela de Enseñanza Superior Orientada N° 258 Soldados Argentinos",
+        "direccion": "San Juan 3652 Rosario, Santa Fe Argentina"
+       
     },
     {
-        "id": 1,
-        "inicio": "fecha xxx",
-        "fin": "fecha xxx",
-        "nivel": "Yo Programo",
-        "img": "assets/img/APLogo-20-20.png"
+        "id": 2,
+        "logoEducacion": "assets/img/Aplogo-20-20.png",
+        "inicio": "06/2022",
+        "fin": "01/2023",
+        "titulo": "Full Stack Devolper Jr.",
+        "descripcion": "Ministerio de Desarrollo Productivo Argentina",
+        "certificacion": "Certificacion de Camara de la Industria de Software (CESSI)"
     }
-] 
+],
 
+"experiencia":[
+    {
+    "id": 1,
+    "logoExperiencia": "assets/coto.png",
+    "inicio": "08/2004",
+    "fin": "10/2018",
+    "empresa": "COTO CICSA suc. 099 y suc. 097",
+    "puesto": "Publicidad/ Administracion/ Insumos",
+    "descripcioneExperiencia": "Manejo de sistemas operativos internos, organización de grupos de trabajos, generación y control de balances, generación de pedidos de publicidad e insumos, secretariado administrativo, etc.",
+    "direccion": "3 de Febrero 1602 y Pte Roca 1602 Rosario, Santa Fe Argentina"
+   
+},
+{
+    "id": 2,
+    "logoExperiencia": "assets/coto.png",
+    "inicio": "08/2004",
+    "fin": "10/2018",
+    "empresa": "COTO CICSA suc. 099 y suc. 097",
+    "puesto": "Publicidad/ Administracion/ Insumos",
+    "descripcioneExperiencia": "Manejo de sistemas operativos internos, organización de grupos de trabajos, generación y control de balances, generación de pedidos de publicidad e insumos, secretariado administrativo, etc.",
+    "direccion": "3 de Febrero 1602 y Pte Roca 1602 Rosario, Santa Fe Argentina"
+}
+],
 
+"habilidades":[
+    {
+        "id": 1,
+        "logoHabilidad": "assets/logohtml.png",
+        "habilidad": "HTML",
+        "porcetaje": "75"
+       
+    
+        [radius]="80"
+        [imageSrc]="'assets/img/logohtml.png'"
+        [showImage]="true"
+        [imageWidth]="50"
+        [imageHeight]="50"
+        [showUnits]="false"
+        [showSubtitle]="false"[outerStrokeWidth]="15"
+        [innerStrokeWidth]="2"
+        [outerStrokeColor]="'#78C000'"
+        [innerStrokeColor]="'#C7E596'"
+        [animation]="true"
+        [animationDuration]="500"="80"
+        [imageSrc]="'assets/img/logohtml.png'"
+        [showImage]="true"
+        [imageWidth]="50"
+        [imageHeight]="50"
+        [showUnits]="false"
+        [showSubtitle]="false"[outerStrokeWidth]="15"
+        [innerStrokeWidth]="2"
+        [outerStrokeColor]="'#78C000'"
+        [innerStrokeColor]="'#C7E596'"
+        [animation]="true"
+        [animationDuration]="500"
+      
+    },
+    {
+        "id": 2,
+        "logoHabilidad": "assets/logocss.png",
+        "habilidad": "CSS",
+        "porcetaje": "75"
+    },
+    {
+        "id": 3,
+        "logoHabilidad": "assets/logojs.png",
+        "habilidad": "JavaScript",
+        "porcetaje": "75"
+    },
+    {
+        "id": 4,
+        "logoHabilidad": "assets/logogit.png",
+        "habilidad": "GitHub",
+        "porcetaje": "75"
+    },
+    {
+        "id": 5,
+        "logoHabilidad": "assets/logobootstrap.jpg",
+        "habilidad": "Bootstrap",
+        "porcetaje": "75"
+    },
+    {
+        "id": 6,
+        "logoHabilidad": "assets/angular.png",
+        "habilidad": "Angular",
+        "porcetaje": "75"
+    },
+    {
+        "id": 7,
+        "logoHabilidad": "assets/logojava.png",
+        "habilidad": "Java",
+        "porcetaje": "75"
+    },
+    {
+        "id": 8,
+        "logoHabilidad": "assets/logomysql.png",
+        "habilidad": "MySQL",
+        "porcetaje": "75"
+    },
+    {
+        "id": 9,
+        "logoHabilidad": "assets/grupal.png",
+        "habilidad": "Trabajo Grupal",
+        "porcetaje": "75"
+    },
+    {
+        "id": 10,
+        "logoHabilidad": "assets/comunica.png",
+        "habilidad": "Comunicación",
+        "porcetaje": "75"
+    },
+    {
+        "id": 11,
+        "logoHabilidad": "assets/coto.png",
+        "habilidad": "Resolución de conflictos",
+        "porcetaje": "75"
+    },
+    {
+        "id": 12,
+        "logoHabilidad": "assets/comunica.png",
+        "habilidad": "xxxx",
+        "porcetaje": "75"
+    }
+],
 
-
-
-
+"proyectos":[
+    {
+    "id": 1,
+    "logoProyecto": "assets/APlogo1.png",
+    "inicio": "06/2022",
+    "fin": "10/2023",
+    "nombreProyecto": "Proyecto integrador Final",
+    "descripcionProyecto": "Integracion de todos los conocimientos adquiridos a lo largo del aprendizaje. Implementación de herramientas y lenguajes de programación"
+   
+},
+{
+    "id": 2,
+    "logoProyecto": "assets/APlogo1.png",
+    "inicio": "06/2022",
+    "fin": "10/2023",
+    "nombreProyecto": "Proyecto integrador Final",
+    "descripcionProyecto": "Integracion de todos los conocimientos adquiridos a lo largo del aprendizaje. Implementación de herramientas y lenguajes de programación"
+}
+],
+"contactos":[
+    {
+        "id": 1,
+        "logoHabilidad": "assets/logohtml.png",
+        "habilidad": "HTML",
+        "porcetaje": "75"
+    },
+    {
+        "id": 2,
+        "logoHabilidad": "assets/logocss.png",
+        "habilidad": "CSS",
+        "porcetaje": "75"
+    },
+    {
+        "id": 3,
+        "logoHabilidad": "assets/logojs.png",
+        "habilidad": "JavaScript",
+        "porcetaje": "75"
+    } 
+]
 
 }

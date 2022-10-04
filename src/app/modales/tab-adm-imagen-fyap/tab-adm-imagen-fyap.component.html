@@ -1,1 +1,36 @@
+<!--2 icono imagen de fondo y navbar-->
+<div class="col">
+    <div ><button type="button" class="btn btn primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#imgfondoModal">
+                <i class="fa-solid fa-image fa-2xl"></i>
+              </button></div>
+            </div>
 
+            <!--2 Modal Imagen fondo-->
+<div class="modal fade" id="imgfondoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="imgmodaltitulo">Imagen de fondo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-4">
+          
+          <div class="mb-3 row">
+            <select class="form-select mb-3" aria-label="Default select example">
+              <option selected>Elejir uno</option>
+              <option value="1">Logo Argentina Programa</option>
+              <option value="2">Imagen fondo</option>
+            </select>
+            <label for="formFileSm mb-3" class="form-label">Imagen</label>
+                <input class="form-control form-control-sm" id="modaleinst" type="file">
+              </div>
+            </div>
+  <!-- botonnes para cambios-->  
+          <div class="modal-footer">
+         <button type="button" class="btn btn-danger">Eliminar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-primary">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>

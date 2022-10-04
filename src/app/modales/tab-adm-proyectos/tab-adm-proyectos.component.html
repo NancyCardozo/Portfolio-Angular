@@ -1,1 +1,47 @@
+   <!--6 icono proyecto-->
+   <div class="col">
+    <div ><button type="button" class="btn btn primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#proyectosModal">
+                <i class="fa-solid fa-folder fa-2xl"></i>
+              </button></div>
+  </div>
 
+  <!--6 Modal Proyectos-->
+<div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="promodaltitulo">Proyectos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-4">
+          
+          <div class="mb-3 row">
+            <select class="form-select mb-3" aria-label="Default select example">
+              <option selected>Elejir uno</option>
+              <option value="1">Proyecto 1</option>
+              <option value="2">Proyecto 2</option>
+            </select>
+  
+            <label for="formFileSm mb-3" class="form-label">Logo Empresa/ proyecto</label>
+                <input class="form-control form-control-sm" id="modalelogopro" type="file">
+  
+                <label for="formFileSm" class="form-label">Nombre de la entidad/ persona</label>
+                <input class="form-control form-control-sm" id= "modalenombrepro" type="text">
+  
+                <label for="formFileSm" class="form-label">Descripcion del proyecto</label>
+                <input class="form-control form-control-sm" id= "modaldescpro" type="textarea">
+  
+                <label for="formFileSm" class="form-label">Periodo</label>
+                <input class="form-control form-control-sm" id= "modaleperiodopro" type="date">
+          </div>
+         </div>
+  <!-- botonnes para cambios-->  
+          <div class="modal-footer">
+         <button type="button" class="btn btn-danger">Eliminar</button>
+            <button type="button" class="btn btn-warning">Actualizar</button>
+            <button type="button" class="btn btn-primary">Guardar</button>
+          </div>
+        </div>
+       
+      </div>
+    </div>

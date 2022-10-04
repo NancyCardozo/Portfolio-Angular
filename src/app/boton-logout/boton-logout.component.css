@@ -1,0 +1,11 @@
+
+/* Boton logout*/
+
+i.fa-lock-open.fa-2xl{
+  color: #FFFFFF;
+}
+/* Boton logout hover*/
+
+i.fa-lock-open.fa-2xl:hover{
+    color: blue;
+}
