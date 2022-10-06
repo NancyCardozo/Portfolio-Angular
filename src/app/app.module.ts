@@ -10,6 +10,9 @@ import { PortfolioService } from './servicios/portfolio.service';
 //importar routing
 import { AppRoutingModule } from './app-routing.module';
 
+//formulario loguin
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 //se importan solos los componentes
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -46,7 +49,7 @@ import { BotonLoginComponent } from './boton-login/boton-login.component';
 //boton login navbar tableroadm
 import { BotonLogoutComponent } from './boton-logout/boton-logout.component';
 //cuerpo del tablero adm
-import { BodyTableroadmComponent } from './body-tableroadm/body-tableroadm.component';
+;
 
 
 
@@ -79,14 +82,16 @@ import { BodyTableroadmComponent } from './body-tableroadm/body-tableroadm.compo
 
     BotonLoginComponent,
     BotonLogoutComponent,
-    BodyTableroadmComponent,
+   
    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   //Agregamos el servicio al array de providers
   providers: [PortfolioService],

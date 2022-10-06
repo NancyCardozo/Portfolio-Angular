@@ -15,8 +15,7 @@ nombrePerfil: string = '';
 rollPerfil: string = '';
 acercaDeMiPerfil: string = '';
 
-
-  constructor(
+constructor(
     //Inyectar el Servicio para tener acceso en la clase a los Métodos
     private portfolioService: PortfolioService
   ) { }

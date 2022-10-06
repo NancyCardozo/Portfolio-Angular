@@ -23,7 +23,8 @@ export class PortfolioService {
   }
   //metodo para subir datos
  // postDatos():Observable<any> {
-    //return this.http.post
-
+    //return this.http.post guardar
+//metodo para modificar datos putDatos actualizar
+//metodo para borar datos deleteDatos eliminar
   }
 //}
