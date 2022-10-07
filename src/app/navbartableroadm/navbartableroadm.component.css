@@ -4,3 +4,6 @@
     background-color: rgba(17, 106, 239, 0.789);
     box-shadow: 5px 5px 15px 5px rgb(244, 244, 250)!important
 }
+.btn-toolbar{
+    align-items: center;
+}

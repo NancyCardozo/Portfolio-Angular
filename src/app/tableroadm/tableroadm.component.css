@@ -5,3 +5,11 @@ i.fa-solid.fa-user, i.fa-solid.fa-image, i.fa-solid.fa-graduation-cap, i.fa-soli
   .btn.primary{
     border-width: medium;
   }
+  .container{
+    border: 1px solid rgb(237, 228, 228);
+   display: flex; 
+  }
+  .tabfila{
+    border: 1px solid rgb(238, 224, 224);
+    justify-content: center;
+  }
